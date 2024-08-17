@@ -35,5 +35,3 @@ A VPC resides within a single AWS Region but can span multiple Availability Zone
 AWS offers multiple layers of security and configuration options to protect your infrastructure. Organizations often create multiple VPCs to isolate different environments, but this can complicate communication between VPCs. AWS Transit Gateway (TGW) helps simplify this by providing a central hub for VPC communication.
 
 With these tools and concepts, you can build a robust, secure, and scalable network within AWS.
-
----
