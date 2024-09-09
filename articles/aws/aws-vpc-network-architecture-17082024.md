@@ -1,6 +1,6 @@
 # AWS VPC Network Architecture
 
-![AWS VPC Network Architecture](1-aws-vpc-network-architecture.png)
+![AWS VPC Network Architecture](/architecture-diagrams/aws/aws-vpc-network-architecture.png)
 
 A Virtual Private Cloud (VPC) is one of the core services provided by AWS, allowing you to create a private, isolated network within the AWS cloud. Think of a VPC as your own virtual data center within AWS, where you have complete control over the resources and networking components. AWS resources like EC2 instances, RDS databases, and other services are hosted within this VPC, and you can manage how data flows in and out of it.
 

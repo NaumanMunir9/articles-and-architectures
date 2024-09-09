@@ -39,9 +39,9 @@ For stateful applications, consider making some components stateless to improve 
 
 To reduce operational complexity and costs, consider using serverless architectures. These can eliminate the need to manage underutilized servers or redundant infrastructure while still providing high availability.
 
-![on-premise-architecture](1-on-premise-architecture.png)
+![on-premise-architecture](/architecture-diagrams/aws/on-premise-architecture.png)
 
-![on-premise-to-aws-cloud-architecture](2-on-premise-to-aws-cloud-architecture.png)
+![on-premise-to-aws-cloud-architecture](/architecture-diagrams/aws/on-premise-to-aws-cloud-architecture.png)
 
 In your cloud migration strategy, for example, you might rehost web servers and introduce auto-scaling to handle spikes in demand. Elastic load balancers can distribute incoming traffic, and refactoring application servers or moving the database tier to Amazon RDS can provide a more cloud-native solution. Distributing the architecture across multiple availability zones ensures high availability, with databases replicating to standby instances in a secondary availability zone.
 

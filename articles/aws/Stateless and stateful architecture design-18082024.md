@@ -1,6 +1,6 @@
 # Stateless and stateful architecture design
 
-![stateless-application-architecture](3-stateless-application-architecture.png)
+![stateless-application-architecture](/architecture-diagrams/aws/stateless-application-architecture.png)
 
 When designing a complex application like an e-commerce website, managing user activity across different devices is crucial. For instance, a user might add items to their cart on a mobile phone and then complete the purchase on a laptop. To handle such scenarios efficiently, your application needs to maintain user state until the transaction is complete, even as users switch devices.
 

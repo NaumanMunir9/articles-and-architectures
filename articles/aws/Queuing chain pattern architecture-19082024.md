@@ -2,7 +2,7 @@
 
 The queuing chain pattern is ideal for scenarios where tasks need to be processed sequentially across multiple systems. Take an image-processing application as an example. The process involves capturing an image, watermarking it, generating different resolutions, and creating thumbnails. These steps are closely linked, so a failure in one can disrupt the entire operation.
 
-![Queuing chain pattern architecture](1-queuing-chain-pattern-architecture.png)
+![Queuing chain pattern architecture](/architecture-diagrams/aws/queuing-chain-pattern-architecture.png)
 
 By using queues between each step, you can avoid a single point of failure and design a more resilient system. This pattern also allows multiple servers to process tasks in parallel, increasing efficiency. For instance, AWS's Amazon Simple Queue Service (SQS) can be used to manage this workflow:
 

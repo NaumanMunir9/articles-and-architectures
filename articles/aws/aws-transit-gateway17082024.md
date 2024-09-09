@@ -2,11 +2,11 @@
 
 As organizations continue to expand their use of AWS, managing and connecting multiple Virtual Private Clouds (VPCs) becomes increasingly complex. Initially, AWS offered VPC peering as a solution, which allows direct communication between two VPCs. However, VPC peering is limited to one-to-one connections, meaning that each pair of VPCs must have its own separate connection. This approach quickly becomes unmanageable in larger environments. For instance, if you have five VPCs that need to communicate with each other, you would need to set up 10 individual peering connections. As the number of VPCs grows, so does the complexity, leading to a tangled web of connections that is difficult to manage and scale.
 
-![vpc-connectivity-using-vpc-peering-without-tgw](2-vpc-connectivity-using-vpc-peering-without-tgw.png)
+![vpc-connectivity-using-vpc-peering-without-tgw](/architecture-diagrams/aws/vpc-connectivity-using-vpc-peering-without-tgw.png)
 
 To address this challenge, AWS introduced Transit Gateway (TGW), a powerful networking service that simplifies the process of connecting multiple VPCs. Unlike VPC peering, which requires a direct connection between each VPC, TGW allows you to centralize your network architecture. With TGW, you only need to create a single connection—known as an attachment—from each VPC to the Transit Gateway. This drastically reduces the number of connections required and simplifies the overall network topology.
 
-![vpc-connectivity-with-tgw](3-vpc-connectivity-with-tgw.png)
+![vpc-connectivity-with-tgw](/architecture-diagrams/aws/vpc-connectivity-with-tgw.png)
 
 ## Key Benefits of AWS Transit Gateway
 
