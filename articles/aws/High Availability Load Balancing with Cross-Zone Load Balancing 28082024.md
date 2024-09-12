@@ -1,0 +1,18 @@
+# High Availability Load Balancing with Cross-Zone Load Balancing
+
+![High Availability Load Balancing with Cross-Zone Load Balancing](../../architecture-diagrams/aws/High%20Availability%20Load%20Balancing%20with%20Cross-Zone%20Load%20Balancing.png)
+
+[LinkedIn - High Availability Load Balancing with Cross-Zone Load Balancing](https://www.linkedin.com/pulse/high-availability-load-balancing-cross-zone-nauman-munir-gtn4f/?trackingId=S0rDvoEXT7OFAwroYSxl7g%3D%3D)
+
+In high availability load balancing designs, distributing workloads across multiple Availability Zones (AZs) is a best practice to enhance resilience and protect against failures. If one AZ experiences an outage, the application can continue to function as the load is shared across other healthy AZs. AWS offers a feature called cross-zone load balancing, which optimizes how incoming traffic is distributed across instances in multiple AZs, ensuring even distribution of traffic and maintaining balanced workloads.
+
+By default, AWS Application Load Balancers (ALBs) have cross-zone load balancing enabled. This means that incoming traffic is distributed evenly across all registered instances in every AZ associated with the load balancer, rather than limiting the distribution to instances within a single AZ. This approach prevents any one AZ from becoming overwhelmed with traffic while others remain underutilized, thus providing a more balanced and efficient use of resources.
+
+1. **Improved Load Distribution:** Cross-zone load balancing ensures that each instance, regardless of its AZ, receives a proportionate share of traffic. For example, if AZ-A has two servers and AZ-B has four, cross-zone load balancing would distribute traffic equally across all six servers. Without cross-zone load balancing, AZ-A and AZ-B would each receive 50% of the traffic. However, since AZ-A has fewer servers, each server would handle more traffic, resulting in an uneven load distribution.
+2. **Enhanced High Availability:** By distributing traffic across multiple AZs, cross-zone load balancing helps maintain application availability even if one AZ becomes unavailable. This redundancy is crucial for applications requiring high availability, ensuring users have continuous access to services.
+3. **Cost Efficiency and Resource Optimization:** Cross-zone load balancing optimizes resource usage by balancing workloads across all available instances, regardless of their location. This prevents scenarios where some instances are overworked while others remain idle, which can lead to higher costs and inefficient resource utilization.
+4. **Resiliency Against AZ Failures:** If an AZ fails or experiences issues, cross-zone load balancing automatically redistributes traffic to instances in healthy AZs. This minimizes downtime and ensures continued service availability without manual intervention.
+
+Consider an example with two AZs: AZ-A and AZ-B. Suppose AZ-A has two servers, and AZ-B has four. If cross-zone load balancing is disabled, the ALB would send 50% of the traffic to each AZ. In this case, each server in AZ-A would handle 25% of the total traffic (50% traffic load / 2 servers), while each server in AZ-B would handle only 12.5% of the total traffic (50% traffic load / 4 servers). This uneven distribution could lead to overloading the servers in AZ-A, while the servers in AZ-B remain underutilized.
+
+With cross-zone load balancing enabled, however, the ALB distributes the traffic evenly across all six servers, regardless of their AZs. Each server would receive an equal share of traffic, ensuring a more balanced and efficient load distribution.
