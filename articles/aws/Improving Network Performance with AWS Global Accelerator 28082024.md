@@ -2,6 +2,8 @@
 
 ![Improving Network Performance with AWS Global Accelerator](../../architecture-diagrams/aws/Improving%20Network%20Performance%20with%20AWS%20Global%20Accelerator.png)
 
+[LinkedIn - Improving Network Performance with AWS Global Accelerator](https://www.linkedin.com/pulse/improving-network-performance-aws-global-accelerator-nauman-munir-jqduf/?trackingId=%2FUrckDAQSSGG2F%2B0geFrrA%3D%3D)
+
 When accessing AWS resources over the internet, traffic typically travels across various network providers and backbone carriers. This can lead to increased latency and suboptimal performance. AWS Global Accelerator enhances network performance by routing traffic to the nearest AWS edge location and then transporting it over AWS's high-speed global network to its final destination. This optimized routing reduces latency and improves the overall user experience by connecting users to AWS services through the closest entry point.
 
 ## Key Features of AWS Global Accelerator
