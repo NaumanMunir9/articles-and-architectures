@@ -1,5 +1,7 @@
 # AWS Direct Connect (DX)
 
+[LinkedIn - AWS Direct Connect (DX)](https://www.linkedin.com/pulse/aws-direct-connect-dx-nauman-munir-uf4zf/?trackingId=%2FUrckDAQSSGG2F%2B0geFrrA%3D%3D)
+
 AWS Direct Connect (DX) offers a secure, private connection directly between your data center and an AWS region, bypassing the public Internet. This service provides consistent speeds, low latency, and improved security, making it an ideal solution for transferring large volumes of data. Using Direct Connect can also be more cost-effective than relying on Internet-based transfers.
 
 AWS Direct Connect is available in over 100 locations worldwide, spanning nearly 70 cities in 30 different countries. These locations host AWS routers that interconnect with customer networks and telecom providers. It’s important to note that these Direct Connect facilities are not AWS-owned data centers; instead, they are located in colocation facilities or "carrier hotels," which serve as neutral points for interconnection. Currently, there are 99 partners, including major companies like AT&T, CoreSite, Digital Realty, Equinix, and Lumen.
