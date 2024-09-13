@@ -4,18 +4,38 @@
 
 An AWS Site-to-Site VPN creates an encrypted tunnel over the Internet, securely connecting your on-premises network to a Virtual Private Cloud (VPC) in an AWS region. This VPN uses the IPSec protocol suite to encrypt traffic in transit, ensuring secure communication between your corporate data center and your AWS environment.
 
-![Single Site-to-Site VPN connection](../../architecture-diagrams/aws/Single%20Site-to-Site%20VPN%20connection.png)
+---
 
+> Single Site-to-Site VPN connection
+![Single Site-to-Site VPN connection](../../architecture-diagrams/aws/Single%20Site-to-Site%20VPN%20connection.png "Single Site-to-Site VPN connection")
+
+---
+
+> Single Site-to-Site VPN connection with a transit gateway
 ![Single Site-to-Site VPN connection with a transit gateway](../../architecture-diagrams/aws/Single%20Site-to-Site%20VPN%20connection%20with%20a%20transit%20gateway.png)
 
+---
+
+> Multiple Site-to-Site VPN connections
 ![Multiple Site-to-Site VPN connections](../../architecture-diagrams/aws/Multiple%20Site-to-Site%20VPN%20connections.png)
 
+---
+
+> Multiple Site-to-Site VPN connections with a transit gateway
 ![Multiple Site-to-Site VPN connections with a transit gateway](../../architecture-diagrams/aws/Multiple%20Site-to-Site%20VPN%20connections%20with%20a%20transit%20gateway_.png)
 
+---
+
+> Site-to-Site VPN connection with AWS Direct Connect
 ![Site-to-Site VPN connection with AWS Direct Connect](../../architecture-diagrams/aws/Site-to-Site%20VPN%20connection%20with%20AWS%20Direct%20Connect.png)
 Site-to-Site VPN connection with AWS Direct Connect
 
+---
+
+> Private IP Site-to-Site VPN connection with AWS Direct Connect
 ![Private IP Site-to-Site VPN connection with AWS Direct Connect](../../architecture-diagrams/aws/Private%20IP%20Site-to-Site%20VPN%20connection%20with%20AWS%20Direct%20Connect.png)
+
+---
 
 AWS Site-to-Site VPN provides a quick and flexible way to establish a secure connection to AWS.
 
