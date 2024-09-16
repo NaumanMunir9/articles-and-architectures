@@ -1,5 +1,7 @@
 # Subnetting Strategies in Azure Virtual Networks (VNets)
 
+[Subnetting Strategies in Azure Virtual Networks (VNets) - LinkedIn](https://www.linkedin.com/pulse/subnetting-strategies-azure-virtual-networks-vnets-nauman-munir-v9qdf/?trackingId=5688fj4mR3yFjhIbZp6qlw%3D%3D)
+
 ---
 
 > Subnetting Strategies in Azure Virtual Networks (VNets)

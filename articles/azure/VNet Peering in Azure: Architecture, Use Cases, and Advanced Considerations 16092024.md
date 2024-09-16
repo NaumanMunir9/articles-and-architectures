@@ -1,5 +1,7 @@
 # VNet Peering in Azure: Architecture, Use Cases, and Advanced Considerations
 
+[LinkedIn Article - VNet Peering in Azure](https://www.linkedin.com/pulse/vnet-peering-azure-architecture-use-cases-advanced-nauman-munir-d0paf/?trackingId=5688fj4mR3yFjhIbZp6qlw%3D%3D)
+
 ---
 
 > VNet Peering in Azure

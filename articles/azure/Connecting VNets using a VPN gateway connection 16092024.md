@@ -1,5 +1,7 @@
 # Connecting VNets using a VPN gateway connection
 
+[LinkedIn Article - Connecting VNets using a VPN gateway connection](https://www.linkedin.com/pulse/connecting-vnets-using-vpn-gateway-connection-nauman-munir-k3omf/?trackingId=5688fj4mR3yFjhIbZp6qlw%3D%3D)
+
 ---
 
 > VPN Gateway Connections for Inter-VNet Connectivity

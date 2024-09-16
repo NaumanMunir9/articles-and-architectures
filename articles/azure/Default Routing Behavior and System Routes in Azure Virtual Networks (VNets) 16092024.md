@@ -1,5 +1,7 @@
 # Default Routing Behavior and System Routes in Azure Virtual Networks (VNets)
 
+[LinkedIn Article - Default Routing Behavior and System Routes in Azure Virtual Networks (VNets)](https://www.linkedin.com/pulse/default-routing-behavior-system-routes-azure-virtual-networks-munir-mueif/?trackingId=5688fj4mR3yFjhIbZp6qlw%3D%3D)
+
 ---
 
 > VNet routing for a VNet subnet

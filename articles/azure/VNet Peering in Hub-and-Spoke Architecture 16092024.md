@@ -1,5 +1,7 @@
 # VNet Peering in Hub-and-Spoke Architecture
 
+[LinkedIn Article - VNet Peering in Hub-and-Spoke Architecture](https://www.linkedin.com/pulse/vnet-peering-hub-and-spoke-architecture-nauman-munir-jiwxf/?trackingId=5688fj4mR3yFjhIbZp6qlw%3D%3D)
+
 ---
 
 ![VNet Peering in Hub-and-Spoke Architecture](../../architecture-diagrams/azure/VNet%20Peering%20in%20Hub-and-Spoke%20Architecture.png)

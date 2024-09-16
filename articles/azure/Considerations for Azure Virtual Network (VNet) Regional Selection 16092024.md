@@ -1,5 +1,7 @@
 # Considerations for Azure Virtual Network (VNet) Regional Selection
 
+[LinkedIn Article - Considerations for Azure Virtual Network (VNet) Regional Selection](https://www.linkedin.com/pulse/considerations-azure-virtual-network-vnet-regional-selection-munir-ibjzf/?trackingId=5688fj4mR3yFjhIbZp6qlw%3D%3D)
+
 ---
 
 > A Vnet with AZs
